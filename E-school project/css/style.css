@@ -1,0 +1,302 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    line-height: 1.4em;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Poppins', sans-serif;
+}
+a, a:hover{
+    text-decoration: none;
+}
+/* ******************************************************************************
+***E-school Css code goes here...............
+********************************************************************************* */
+
+/*------ header section css start------ */
+.header-section{
+    width: 100%;
+    background: #F0FFF0;
+}
+.header-section .bg-light{
+    background: transparent !important;
+}
+.header-section .navbar-light .navbar-nav .nav-link{
+    color: #000;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin: 0px 0px 0px 15px;
+}
+.header-section .navbar-light .navbar-nav .nav-link:hover{
+    color: #21B573;
+    transition: .5s;
+    cursor: pointer;
+}
+.header-section .navbar .btn-success{
+    color: #fff;
+    background-color: #21B573;
+    border-color: #21B573;
+    padding: 8px 35px;
+    border-radius: 33px;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 500;
+    margin: 0px 0px 0px 20px;
+}
+.header-section .navbar .btn-success:hover, .header-section .navbar .btn-success:focus{
+    color: #21B573;
+    background-color: transparent;
+    border-color: #21B573;
+}
+.header-section .navbar-light .navbar-nav .nav-link.active{
+    border: 1px solid #000;
+}
+.banner{
+    width: 100%;
+    padding: 80px 0px;
+}
+.banner h5{
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 600;
+    color: #FD511A;
+}
+.banner h1{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 70px;
+    color: #000000;
+}
+.banner h1 span{
+    color: #21B573;
+}
+.banner p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 36px;
+    color: #6C6B6B;
+}
+.banner .btn-success{
+    color: #fff;
+    background-color: #21B573;
+    border-color: #21B573;
+    padding: 8px 35px;
+    border-radius: 33px;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 500;
+    margin: 20px 0px 0px 0px;
+}
+.banner .btn-success:hover, .banner .btn-success:focus{
+    color: #21B573;
+    background-color: transparent;
+    border-color: #21B573;
+}
+/*----------- header section css end------------ */
+
+/*---------- feature section css start---------- */
+.feature{
+    width: 100%;
+    padding: 80px;
+}
+.feature .inner-feature{
+    width: 100%;
+    padding: 40px 25px;
+    background: #F8FFFB;
+    text-align: center;
+    border-radius: 10px;
+}
+.feature .inner-feature img{
+    width: 85px;
+    height: 85px;
+    margin: 0px 0px 20px;
+}
+.feature .inner-feature h4{
+    font-size: 24px;
+    line-height: 34px;
+    font-weight: 500;
+    color: #413960;
+    margin: 0px;
+}
+.feature .inner-feature p{
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 500;
+    color: #585859;
+    margin: 0px;
+}
+.feature .inner-feature:hover{
+    background: #FFFFFF;
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+}
+/*---------- feature section css end-------------- */
+/*-------- online courses css start--------------- */
+.online-courses{
+    width: 100%;
+    padding: 80px 0px;
+}
+.online-courses .title{
+    text-transform: capitalize;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 70px;
+    color: #413960;
+    text-align: center;
+    margin: 0px 0px 80px;
+}
+.online-courses .card{
+    padding: 20px;
+    background: #FFFFFF;
+    border: 0px;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 18px;
+}
+.online-courses .card .card-img{
+    border-radius: 11px;
+}
+.online-courses .card-body{
+    padding: 20px 0px 0px;
+}
+.online-courses .card-body .card-title{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 34px;
+    color: #413960;
+}
+.online-courses .card-body .card-text{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #585859;
+    margin: 0px 0px 20px 0px;
+}
+.online-courses .card-body .btn-success{
+    color: #fff;
+    background-color: #21B573;
+    border-color: #21B573;
+    padding: 8px 35px;
+    border-radius: 33px;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 500;
+    margin: 0px;
+}
+.online-courses .card-body .btn-success:hover, .online-courses .card-body .btn-success:focus{
+    color: #21B573;
+    background-color: transparent;
+    border-color: #21B573;
+}
+.online-courses .card-body .date{
+    width: 100%;
+    margin: 35px 0px 0px;
+}
+.online-courses .card-body .date p{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #585859;
+}
+.online-courses .card-body .seat{
+    width: 100%;
+    margin: 35px 0px 0px 20px;
+}
+.online-courses .card-body .seat p{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #585859;;
+}
+/* ------- online courses css end ------------ */
+/********* testimonial section css start ********** */
+.testimonial{
+    width: 100%;
+    padding: 80px 0px;
+}
+.testimonial .title{
+    text-transform: capitalize;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 70px;
+    color: #413960;
+    text-align: center;
+    margin: 0px 0px 80px;
+}
+.testimonial img{
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+}
+.testimonial p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #6C6B6B;
+}
+/********** testimonial section css end **********/
+/************ footer section css star** **********/
+.footer-section{
+    width: 100%;
+    padding: 80px 0px 20px;
+    background: #282531;
+}
+.footer-section p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #ffffff;
+}
+.footer-section .widget{
+    width: 100%;
+    margin: 0px 0px 80px;
+}
+.footer-section .widget h6{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+.footer-section .widget ul{
+    padding: 0px;
+}
+.footer-section .widget ul li{
+    list-style: none;
+}
+.footer-section .widget ul li a{
+    display: block;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #ffffff;
+    margin: 0px 0px 10px;
+}
+.footer-section .widget ul li a:hover{
+    color: #56548C;
+    transition: .5s;
+    font-size: 18px;
+    cursor: pointer;
+}
+.copyright{
+    text-align: center;
+    font-size: 14px;
+    line-height: 24px;
+    color: #CDCDCD;
+}
+/************ footer section css end *************/
